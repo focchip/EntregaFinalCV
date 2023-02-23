@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" type="text/css" href="cvestilos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/d7bd4c4855.css" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type=image/x-icon href=favicon.icon rel=shortcut.icon />
+    <title>Curriculum Vitae</title>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        </style>
+</head>
+<body>
+
+
+<h1>Curriculum Vitae</h1>
+    
+<img src="https://www.w3schools.com/css/img_chania.jpg" alt="Foto cv" style= "float:left; width:240px; height:120px;" />
+
+<section>
+
+    <button type="button"
+onclick="document.getElementById('Fecha').innerHTML = Date()">
+Fecha</button>
+
+<p id="Fecha"></p>
+
+<p id="nom">Nombre y Apellido: Federico Omar Occhipinti</p>
+
+<button type="button" onclick="document.getElementById('nom').style.fontSize='35px'">Agranda el nombre!</button>
+
+    
+
+    <p>Fecha de Nacimiento: 12/04/1991</p>
+    <p>Edad: 31</p>
+    <p>Estado Civil: Soltero</p>
+    <p>Domicilio: Calle 10 n2721</p>
+    <p>Telefono: 0303456</p>
+    <p>Mail: occhi@occhi.com</p>
+
+    <div>Objetivo: Es mi objetivo personal fomentar mis habilidades dentro de la 
+       Empresa, desarrollarme profesionalmente en la misma y poder 
+        devolverle con mi esfuerzo y trabajo diario, todo lo recibido en mi 
+        experiencia laboral.
+    </div>
+
+    <p>Historial de empleo: Con muchas ganas de aprender.</p>
+
+    <p>Estudios: Ha finalizado exitosamente todo lo que se propuso.</p>
+
+</section>
+
+<div class="footer">
+    <p id="footer">Gracias por los videos super practicos!</p>
+
+    <button type="button" onclick="document.getElementById('footer').style.display='none'">Ocultar Agradecimiento</button>
+    
+  </div>
+
+</body>
+</html>
